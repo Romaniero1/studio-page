@@ -3,7 +3,7 @@ import { SecondFlow } from '../components/second-page';
 
 export default function Main() {
   return (
-    <div className='text-white'>
+    <div className='text-white overflow-x-hidden'>
       <Head>
         <title>Tiny Colony Press Kit</title>
         <meta name='description' content='Studio Page' />
