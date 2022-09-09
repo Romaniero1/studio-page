@@ -1,4 +1,10 @@
 @tailwind base;
+h5 {
+  @apply text-xl font-mono font-[400];
+}
+h4 {
+  @apply text-lg font-sans font-[400];
+}
 h3 {
   @apply text-xs font-sans font-[500];
 }
