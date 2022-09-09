@@ -1,7 +1,7 @@
-import Tinyverse from '/public/second-flow/onepager/Tinyverse.png'
-import Tinytoken from '/public/second-flow/onepager/Tinytoken.png'
-import Tinycolony from '/public/second-flow/onepager/Tinycolony.png'
-import PrismaZoom from 'react-prismazoom'
+import Tinyverse from '/public/second-flow/onepager/Tinyverse.png';
+import Tinytoken from '/public/second-flow/onepager/Tinytoken.png';
+import Tinycolony from '/public/second-flow/onepager/Tinycolony.png';
+import PrismaZoom from 'react-prismazoom';
 import Popup from 'reactjs-popup';
 import Image from 'next/image';
 import { useState } from 'react';

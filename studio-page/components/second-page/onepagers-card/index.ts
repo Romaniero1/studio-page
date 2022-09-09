@@ -1,1 +1,1 @@
-export * from "./onepagers;
+export * from "./onepagers";
