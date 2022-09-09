@@ -31,7 +31,7 @@ export const Onepagers = () => {
                 </Popup>
                 <div className='flex flex-col h-28 -ml-16 mr-6 my-5 space-y-[14px]'>
                     <button className="w-10 h-10 bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TVOneP(o => !o)}/>
-                    <a href="/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                    <a href="https://www.google.com/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
             <div className='flex w-[334px] h-[134px] rounded-[24px] border-[1px] hover:bg-purple'>
@@ -47,7 +47,7 @@ export const Onepagers = () => {
                 </Popup>
                 <div className='flex flex-col w-10 h-28 -ml-16 mr-6 my-5 space-y-[14px]'>
                     <button className="w-10 h-10 bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => FPOneP(o => !o)}/>
-                    <a href="/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                    <a href="https://www.google.com/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
             <div className="flex w-[334px] h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/tc_onepager.png')] hover:bg-cover">
@@ -63,7 +63,7 @@ export const Onepagers = () => {
                 </Popup>
                 <div className='flex flex-col w-10 h-28 -ml-16 mr-6 my-5 space-y-[14px]'>
                     <button className="w-10 h-10 bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TCOneP(o => !o)}/>
-                    <a href="/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                    <a href="https://www.google.com/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
             <div className="flex w-[334px] h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/token.png')] hover:bg-cover">
@@ -79,7 +79,7 @@ export const Onepagers = () => {
                 </Popup>
                 <div className='flex flex-col w-10 h-28 -ml-16 mr-6 my-5 space-y-[14px]'>
                     <button className="w-10 h-10 bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TTOneP(o => !o)}/>
-                    <a href="/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                    <a href="https://www.google.com/" className="w-10 h-10 bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
         </div>

@@ -44,7 +44,7 @@ export const SecondFlow = () => {
 								<div className='flex flex-col pt-3 space-y-1'>
 									<div className='flex items-center space-x-3'>
 										<Image src={Mail} width={24} height={24} layout='fixed' alt="image" />
-										<a href='mailto:arshia@tinycolony.io?subject=Press kit questions'><h5>arshia@tinycolony.io</h5></a>
+										<a href='mailto:arshia@tinycolony.io'><h5>arshia@tinycolony.io</h5></a>
 									</div>
 									<div className='flex items-center space-x-3'>
 										<Image src={Telegram} width={24} height={24} layout='fixed' alt="image" />
