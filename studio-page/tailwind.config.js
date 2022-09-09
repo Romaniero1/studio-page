@@ -13,6 +13,7 @@ module.exports = {
 			fontFamily: {
 				mono: ['"LeagueSpartan"'],
 				sans: ['"Futura"'],
+				serif: ['"PressStart2P"'],
 			},
 		},
 		fontSize: {

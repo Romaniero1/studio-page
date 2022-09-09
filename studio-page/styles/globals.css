@@ -18,9 +18,9 @@ h1 {
 
 @tailwind components;
 .gif-text {
-  font-family: "Futura";
-  font-size: 50px;
-  line-height: 55px;
+  font-family: "PressStart2P";
+  font-size: 35px;
+  line-height: 45px;
 }
 @tailwind utilities;
 
@@ -36,6 +36,13 @@ h1 {
   @font-face {
     font-family: "Futura";
     src: url(./fonts/Futura.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "PressStart2P";
+    src: url(./fonts/PressStart2P.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

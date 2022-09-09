@@ -62,7 +62,7 @@ export const SecondFlow = () => {
 					</div>
 					<div className='flex flex-col ml-4'>
 						<div className='flex flex-col w-[436px] h-[314px] rounded-[24px] bg-purple'>
-							<button className="flex w-[436px] h-[314px] rounded-[24px] bg-[url('/second-flow/gameplay.gif')] bg-contain bg-no-repeat pt-16 justify-center" onClick={() => setGP(o => !o)}>
+							<button className="flex w-[436px] h-[314px] rounded-[24px] bg-[url('/second-flow/gameplay.gif')] bg-contain bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
 								<p className='uppercase gif-text text-center'>
 									Tiny Colony <br /> gameplay
 								</p>
