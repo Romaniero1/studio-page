@@ -5,7 +5,7 @@ import Logo from '/public/first-flow/logo.png'
 
 export const FirstFlow = () => {
 	const { register, handleSubmit } = useForm();
-	const onSubmit = data => console.log(data);
+	const onSubmit = (data: any) => console.log(data);
 
 	return (
 		<header className="flex justify-center items-center w-screen h-screen overflow-hidden bg-[url('/first-flow/bg.gif')] bg-cover">
