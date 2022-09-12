@@ -73,7 +73,7 @@ export const Slider = () => {
     const { DownloadButton } = getFilePluginInstance;
 
 	return (
-		<div className='w-[272px] h-[180px] sm:w-[576px] sm:h-[360px] md:w-[704px] xl:w-[740px] xl:h-[420px] rounded-[24px}'>
+		<div className='w-[272px] h-[180px] sm:w-[576px] sm:h-[360px] lg:h-[320px] md:w-[704px] lg:w-[580px] xl:w-[740px] xl:h-[420px] rounded-[24px}'>
 			<Slide {...properties}>
 				{slideImages.map((each, index) => (
 					<button key={index} className="each-slide" onClick={() => setOpen(o => !o)}>

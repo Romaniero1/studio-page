@@ -45,9 +45,9 @@ export const Onepagers = () => {
 
 
     return (
-        <div className='flex flex-col space-y-6 sm:space-y-0 sm:grid sm:grid-cols-2 w-[272px] h-[640px] sm:w-[576px] sm:h-[264px] md:w-[704px] md:h-[340px] xl:w-[740px] xl:h-[340px] rounded-[24px] bg-purple mt-[16px] md:mt-16 xl:mt-6 p-[16px] xl:p-6 sm:gap-6 bg-opacity-60'>
-            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/tv_onepager.png')] hover:bg-cover">
-                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6' onClick={() => TVOneP(o => !o)}>
+        <div className='flex flex-col space-y-6 sm:space-y-0 sm:grid sm:grid-cols-2 w-[272px] h-[640px] sm:w-[576px] sm:h-[264px] md:w-[704px] md:h-[340px] lg:w-[580px] lg:h-[264px] xl:w-[740px] xl:h-[340px] rounded-[24px] bg-purple mt-[16px] md:mt-16 lg:mt-6 p-[16px] xl:p-6 sm:gap-6 bg-opacity-60'>
+            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] lg:w-[256px] lg:h-[100px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/tv_onepager.png')] hover:bg-cover">
+                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6 lg:p-5 xl:p-6' onClick={() => TVOneP(o => !o)}>
                     <h1 className='text-left'>Tinyverse <br /> Onepager</h1>
                 </button>
                 <Popup open={openTVop} closeOnDocumentClick onClose={closeTV}>
@@ -70,13 +70,13 @@ export const Onepagers = () => {
                         </div>
                     </div>
                 </Popup>
-                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 space-y-[14px]'>
-                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TVOneP(o => !o)} />
-                    <a href="https://drive.google.com/uc?export=download&id=1OfemI_uSTZ0nS4_XK_Y-wO-bpOvaLJ2C" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 lg:my-[10px] xl:my-5 space-y-[14px]'>
+                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TVOneP(o => !o)} />
+                    <a href="https://drive.google.com/uc?export=download&id=1OfemI_uSTZ0nS4_XK_Y-wO-bpOvaLJ2C" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
-            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/fin_onepager.png')] hover:bg-cover">
-                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6' onClick={() => FPOneP(o => !o)}>
+            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] lg:w-[256px] lg:h-[100px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/fin_onepager.png')] hover:bg-cover">
+                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6 lg:p-5 xl:p-6' onClick={() => FPOneP(o => !o)}>
                     <h1 className='text-left'>Financial <br /> Projections</h1>
                 </button>
                 {open &&
@@ -121,13 +121,13 @@ export const Onepagers = () => {
                         </div>
                     </>
                 }
-                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 space-y-[14px]'>
-                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => FPOneP(o => !o)} />
-                    <a href="https://drive.google.com/uc?export=download&id=140KRylGBQI_0Ryxv0FL0npuoc9_E2GcD" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 lg:my-[10px] xl:my-5 space-y-[14px]'>
+                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => FPOneP(o => !o)} />
+                    <a href="https://drive.google.com/uc?export=download&id=140KRylGBQI_0Ryxv0FL0npuoc9_E2GcD" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
-            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/tc_onepager.png')] hover:bg-cover">
-                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6' onClick={() => TCOneP(o => !o)}>
+            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] lg:w-[256px] lg:h-[100px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/tc_onepager.png')] hover:bg-cover">
+                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6 lg:p-5 xl:p-6' onClick={() => TCOneP(o => !o)}>
                     <h1 className='text-left'>Tiny Colony <br /> Onepager</h1>
                 </button>
                 <Popup open={openTCop} closeOnDocumentClick onClose={closeTC}>
@@ -150,13 +150,13 @@ export const Onepagers = () => {
                         </div>
                     </div>
                 </Popup>
-                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 space-y-[14px]'>
-                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TCOneP(o => !o)} />
-                    <a href="https://drive.google.com/uc?export=download&id=1rnmS_ZWuz7ryc3CkbEfhcMwqVof5Ic5u" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 lg:my-[10px] xl:my-5 space-y-[14px]'>
+                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TCOneP(o => !o)} />
+                    <a href="https://drive.google.com/uc?export=download&id=1rnmS_ZWuz7ryc3CkbEfhcMwqVof5Ic5u" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
-            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/token.png')] hover:bg-cover">
-                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6' onClick={() => TTOneP(o => !o)}>
+            <div className="flex w-[240px] sm:w-[252px] md:w-[316px] xl:w-[334px] h-[134px] sm:h-[100px] md:h-[134px] lg:w-[256px] lg:h-[100px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/token.png')] hover:bg-cover">
+                <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6 lg:p-5 xl:p-6' onClick={() => TTOneP(o => !o)}>
                     <h1 className='text-left'>Tiny Token <br /> Onepager</h1>
                 </button>
                 <Popup open={openTTop} closeOnDocumentClick onClose={closeTT}>
@@ -179,9 +179,9 @@ export const Onepagers = () => {
                         </div>
                     </div>
                 </Popup>
-                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 space-y-[14px]'>
-                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TTOneP(o => !o)} />
-                    <a href="https://drive.google.com/uc?export=download&id=1WWPph0bgJ5cyf-jxC28SZ2NcuzDTF4qR" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
+                <div className='flex flex-col h-28 -ml-16 mr-6 my-5 sm:my-[10px] md:my-5 lg:my-[10px] xl:my-5 space-y-[14px]'>
+                    <button className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/open_button_UA.svg')] hover:bg-[url('/second-flow/open_button_A.svg')]" onClick={() => TTOneP(o => !o)} />
+                    <a href="https://drive.google.com/uc?export=download&id=1WWPph0bgJ5cyf-jxC28SZ2NcuzDTF4qR" className="w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-8 lg:h-8 xl:w-10 xl:h-10 bg-cover bg-[url('/second-flow/download_button_UA.svg')] hover:bg-[url('/second-flow/download_button_A.svg')]" />
                 </div>
             </div>
         </div>
