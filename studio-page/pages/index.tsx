@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className='text-white'>
       <Head>
-        <title>Tiny Colony Press Kit</title>
+        <title>Tiny Colony Studio Page</title>
         <meta name='description' content='Studio Page' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
