@@ -9,12 +9,12 @@ export const FirstFlow = () => {
 
 	return (
 		<header className="flex justify-center items-center w-screen h-screen overflow-hidden bg-[url('/first-flow/bg.gif')] bg-cover">
-				<div className='flex flex-col items-center'>
+				<div className='mx-10 flex flex-col items-center '>
 					<Image src={Logo} width={600} height={348} alt='Logo'/>
 					<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col items-center">
 							<input
 								{...register('code')}
-								className="w-[340px] h-[60px] rounded-[10px] px-4 text-black bg-white bg-no-repeat bg-cover focus:outline-none"
+								className="w-[280px] sm:w-[340px] h-[60px] rounded-[10px] px-4 text-black bg-white bg-no-repeat bg-cover focus:outline-none"
 								placeholder="Input your code"
 							/>
 					<Link href='/main'>
