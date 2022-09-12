@@ -1,5 +1,4 @@
 import { Slide } from 'react-slideshow-image';
-import Popup from 'reactjs-popup';
 import Image from 'next/image';
 import { useState } from 'react';
 import { Worker } from '@react-pdf-viewer/core';
@@ -7,7 +6,8 @@ import { Viewer, SpecialZoomLevel } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import { zoomPlugin } from '@react-pdf-viewer/zoom';
 import '@react-pdf-viewer/zoom/lib/styles/index.css';
-import { RenderZoomOutProps } from '@react-pdf-viewer/zoom';
+import { getFilePlugin } from '@react-pdf-viewer/get-file';
+
 
 
 import Picture1 from '/public/second-flow/slider/1.png';
@@ -67,8 +67,10 @@ export const Slider = () => {
 	const closeModal = () => setOpen(false);
 	const [open, setOpen] = useState(false);
 
-	const zoomPluginInstance = zoomPlugin();
-	const { ZoomInButton, ZoomOutButton, ZoomPopover } = zoomPluginInstance;
+    const zoomPluginInstance = zoomPlugin();
+    const { ZoomInButton, ZoomOutButton, ZoomPopover } = zoomPluginInstance;
+    const getFilePluginInstance = getFilePlugin();
+    const { DownloadButton } = getFilePluginInstance;
 
 	return (
 		<div className='w-[740px] h-[420px] rounded-[24px}'>
@@ -108,6 +110,7 @@ export const Slider = () => {
 									<ZoomOutButton />
 									<ZoomPopover />
 									<ZoomInButton />
+									<DownloadButton />
 								</div>
 								<div
 									style={{
@@ -115,9 +118,9 @@ export const Slider = () => {
 										overflow: 'hidden',
 									}}
 								>
-									<Viewer fileUrl="deck.pdf" defaultScale={SpecialZoomLevel.PageFit} plugins={[zoomPluginInstance]} theme="dark" />
+									<Viewer fileUrl="deck.pdf" defaultScale={SpecialZoomLevel.PageFit} plugins={[zoomPluginInstance,getFilePluginInstance]} theme="dark" />
 								</div>
-							</div>;
+							</div>
 						</Worker>
 					</div>
 				</>

@@ -31,11 +31,11 @@ export const SecondFlow = () => {
 							</button>
 						</a>
 						<Popup
-							trigger={open => (
+							trigger={
 								<button className='w-[235px] h-[60px] border-white border-[1px] rounded-[16px] ml-8 hover:text-purple hover:border-0 hover:bg-white'>
 									<h2>Contact us</h2>
 								</button>
-							)}
+							}
 							position="bottom center"
 							closeOnDocumentClick
 						>
@@ -62,10 +62,7 @@ export const SecondFlow = () => {
 					</div>
 					<div className='flex flex-col ml-4'>
 						<div className='flex flex-col w-[436px] h-[314px] rounded-[24px] bg-purple'>
-							<button className="flex w-[436px] h-[314px] rounded-[24px] bg-[url('/second-flow/gameplay.gif')] bg-contain bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
-								<p className='uppercase gif-text text-center'>
-									Tiny Colony <br /> gameplay
-								</p>
+							<button className="flex w-[436px] h-[314px] rounded-[24px] bg-[url('/second-flow/gameplay(1).gif')] bg-contain bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
 							</button>
 							<Popup open={openGP} closeOnDocumentClick onClose={closeGP}>
 								<div className='flex flex-col fixed inset-0 w-screen h-screen bg-black bg-opacity-80 justify-center items-center' onClick={closeGP}>
@@ -116,10 +113,7 @@ export const SecondFlow = () => {
 							</div>
 						</div>
 						<div className='flex flex-col'>
-							<button className="flex flex-col w-[436px] h-[240px] rounded-[24px] bg-[url('/second-flow/mayhem.gif')] bg-cover mt-6 justify-center text-center" onClick={() => setMM(o => !o)}>
-								<p className='uppercase gif-text text-center mt-4'>
-									Mechnized mayhem
-								</p>
+							<button className="flex flex-col w-[436px] h-[240px] rounded-[24px] bg-[url('/second-flow/mayhem(1).gif')] bg-cover mt-6 justify-center text-center" onClick={() => setMM(o => !o)}>
 							</button>
 							<Popup open={openMM} closeOnDocumentClick onClose={closeMM}>
 								<div className='flex flex-col fixed inset-0 w-screen h-screen bg-black bg-opacity-80 justify-center items-center' onClick={closeMM}>

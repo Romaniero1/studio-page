@@ -13,10 +13,12 @@
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@react-pdf-viewer/core": "^3.7.0",
+    "@react-pdf-viewer/get-file": "^3.7.0",
     "@react-pdf-viewer/theme": "^3.7.0",
     "@react-pdf-viewer/zoom": "^3.7.0",
     "next": "12.2.5",
     "pdfjs-dist": "^2.15.349",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.34.2",
@@ -25,7 +27,9 @@
     "reactjs-popup": "^2.0.5"
   },
   "devDependencies": {
+    "@types/eslint": "8.4.6",
     "@types/node": "18.7.15",
+    "@types/prop-types": "^15.7.5",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
     "@types/react-pdf": "^5.7.2",
