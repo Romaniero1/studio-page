@@ -24,7 +24,7 @@ export const SecondFlow = () => {
 					<div className='flex w-[240px] xl:w-full'>
 						<Image src={Logo} width={349} height={29} alt='Logo' layout='fixed' />
 					</div>
-					<div className='flex flex-col lg:flex-row mt-[50px] sm:mt-0'>
+					<div className='flex flex-col sm:flex-row lg:flex-row mt-[50px] sm:mt-8 md:mt-0 sm:space-x-12 md:space-x-0'>
 						<a href="https://calendly.com/tinyverse-studios/tvs-pitch">
 							<button className='w-[235px] h-[60px] bg-purple rounded-[16px]'>
 								<h2>Book a meeting</h2>
@@ -55,26 +55,26 @@ export const SecondFlow = () => {
 						</Popup>
 					</div>
 				</div>
-				<div className='flex flex-col lg:flex-row mt-10 xl:mt-[30px]'>
+				<div className='flex flex-col lg:flex-row mt-10 sm:mt-8 xl:mt-[30px]'>
 					<div className='flex flex-col items-center '>
 						<Slider />
 						<Onepagers />
 					</div>
-					<div className='flex flex-col ml-0 xl:ml-4 mt-[30px] xl:mt-0 items-center'>
-						<div className='flex flex-col w-[272px] xl:w-[436px] h-[220px] xl:h-[314px] rounded-[24px] bg-purple'>
-							<button className="flex w-[272px] xl:w-[436px] h-[200px] xl:h-[314px] rounded-[24px] bg-[url('/second-flow/gameplay(1).gif')] bg-contain bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
+					<div className='flex flex-col sm:flex-row md:flex-col ml-0 xl:ml-4 mt-[30px] sm:mt-8 xl:mt-0 items-center sm:space-x-[28px] md:space-x-0 sm:pb-10 md:pb-0'>
+						<div className='flex flex-col w-[272px] xl:w-[436px] h-[220px] sm:h-[290px] xl:h-[314px] rounded-[24px] bg-purple bg-opacity-60'>
+							<button className="flex w-[272px] xl:w-[436px] h-[200px] xl:h-[314px] rounded-[24px] sm:rounded-b-none md:rounded-[24px] bg-center bg-[url('/second-flow/gameplay(1).gif')] bg-contain sm:bg-cover bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
 							</button>
 							<Popup open={openGP} closeOnDocumentClick onClose={closeGP}>
 								<div className='flex flex-col fixed inset-0 w-screen h-screen bg-black bg-opacity-80 justify-center items-center' onClick={closeGP}>
 									<iframe
-										className="flex h-fit xl:h-[463px] w-[272px] xl:w-[760px]"
+										className="flex h-fit sm:h-[360px]  xl:h-[463px] w-[272px] sm:w-[576px] xl:w-[760px]"
 										src="https://www.youtube.com/embed/DGDHQNufgwY?controls=0&modestbranding=1&showinfo=0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 										allowFullScreen
 									></iframe>
 								</div>
 							</Popup>
-							<div className='flex justify-between px-4 xl:px-10 items-baseline space-x-6 xl:space-x-10 -mt-8 xl:-mt-12'>
+							<div className='flex justify-between px-4 xl:px-10 items-baseline space-x-6 xl:space-x-10 -mt-8 sm:mt-[28px] xl:-mt-12'>
 								<a
 									href='https://discord.com/invite/VjCHsa3WXm'
 									target='_blank'
@@ -112,25 +112,29 @@ export const SecondFlow = () => {
 								</a>
 							</div>
 						</div>
-						<div className='flex flex-col pb-10'>
-							<button className="flex flex-col w-[272px] xl:w-[436px] h-[200px] xl:h-[240px] rounded-[24px] bg-[url('/second-flow/mayhem(1).gif')] bg-cover bg-center mt-6 justify-center text-center" onClick={() => setMM(o => !o)}>
+						<div className='flex flex-col pb-10 sm:pb-0'>
+							<button className="flex flex-col w-[272px] xl:w-[436px] h-[200px] xl:h-[240px] rounded-[24px] bg-[url('/second-flow/mayhem(1).gif')] bg-cover bg-center mt-6 sm:mt-0 md:mt-6 justify-center text-center" onClick={() => setMM(o => !o)}>
 							</button>
 							<Popup open={openMM} closeOnDocumentClick onClose={closeMM}>
 								<div className='flex flex-col fixed inset-0 w-screen h-screen bg-black bg-opacity-80 justify-center items-center' onClick={closeMM}>
 									<iframe
-										className="flex h-fit xl:h-[463px] w-[272px] xl:w-[760px]"
+										className="flex h-fit sm:h-[360px] xl:h-[463px] w-[272px] sm:w-[576px] xl:w-[760px]"
 										src="https://www.youtube.com/embed/DGDHQNufgwY?controls=0&modestbranding=1&showinfo=0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 										allowFullScreen
 									></iframe>
 								</div>
 							</Popup>
-							<div className='w-[272px] xl:w-[436px] h-[170px] xl:h-[182px] rounded-[24px] bg-purple mt-6 bg-opacity-60'>
-								<div className='flex items-center w-[240px] xl:w-[388px] h-[134px] m-[16px] xl:m-6 px-6 rounded-[24px] border-[1px] hover:bg-purple'>
+							<div className='w-[272px] xl:w-[436px] h-[170px] sm:h-[86px] xl:h-[182px] rounded-[24px] bg-purple mt-6 sm:mt-1 md:mt-6 bg-opacity-60'>
+								<div className='flex items-center w-[240px] sm:w-[248px] xl:w-[388px] h-[134px] sm:h-[62px] md:h-[134px] m-[16px] sm:m-3 xl:m-6 px-6 rounded-[24px] border-[1px] hover:bg-purple'>
 									<a href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ/videos" className='flex flex-1 rounded-[24px]'>
-										<h1>More <br /> videos</h1>
+										<div className='flex flex-col sm:flex-row space-x-2'>
+											<h1>More</h1>
+											<h1>videos</h1>
+										</div>
+										
 									</a>
-									<a href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ/videos" className="flex w-10 h-10 bg-[url('/second-flow/video_button_UA.svg')] hover:bg-[url('/second-flow/video_button_A.svg')]" />
+									<a href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ/videos" className="flex w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/video_button_UA.svg')] hover:bg-[url('/second-flow/video_button_A.svg')]" />
 								</div>
 							</div>
 						</div>
