@@ -76,6 +76,13 @@ export const SecondFlow = () => {
 							</Popup>
 							<div className='flex justify-between px-4 xl:px-10 items-baseline space-x-6 xl:space-x-10 -mt-8 sm:mt-[28px] lg:mt-[20px] xl:-mt-12'>
 								<a
+									href='https://tinycolony.io'
+									target='_blank'
+									rel='noreferrer'
+								>
+									<Image src={Web} width={24} height={24} layout='fixed' alt="logo" />
+								</a>
+								<a
 									href='https://discord.com/invite/VjCHsa3WXm'
 									target='_blank'
 									rel='noreferrer'
@@ -103,13 +110,6 @@ export const SecondFlow = () => {
 								>
 									<FontAwesomeIcon icon={faMediumM} className='h-7 w-7' />
 								</a>
-								<a
-									href='https://tinycolony.io'
-									target='_blank'
-									rel='noreferrer'
-								>
-									<Image src={Web} width={24} height={24} layout='fixed' alt="logo" />
-								</a>
 							</div>
 						</div>
 						<div className='flex flex-col pb-10 sm:pb-0'>
@@ -127,14 +127,14 @@ export const SecondFlow = () => {
 							</Popup>
 							<div className='w-[272px] lg:w-[360px] xl:w-[436px] h-[170px] sm:h-[86px] md:w-[336px] xl:h-[182px] rounded-[24px] bg-purple mt-6 sm:mt-1 lg:mt-6 bg-opacity-60'>
 								<div className='flex items-center w-[240px] sm:w-[248px] md:w-[312px] lg:w-[336px] xl:w-[388px] h-[134px] sm:h-[62px] xl:h-[134px] m-[16px] sm:m-3 xl:m-6 px-6 rounded-[24px] border-[1px] hover:bg-purple'>
-									<a href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ/videos" className='flex flex-1 rounded-[24px]'>
+									<a href="https://www.youtube.com/playlist?list=PL5_tXvkF_4c_1GcVkB632bSXcoHNCIbFu&jct=PpIb_b0cZPk0eJU4WVqUEL4XhB79Gw" className='flex flex-1 rounded-[24px]'>
 										<div className='flex flex-col sm:flex-row space-x-2'>
 											<h1>More</h1>
 											<h1>videos</h1>
 										</div>
-										
+
 									</a>
-									<a href="https://www.youtube.com/channel/UC8c545SX_PGCD7jqPTEU_yQ/videos" className="flex w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/video_button_UA.svg')] hover:bg-[url('/second-flow/video_button_A.svg')]" />
+									<a href="https://www.youtube.com/playlist?list=PL5_tXvkF_4c_1GcVkB632bSXcoHNCIbFu&jct=PpIb_b0cZPk0eJU4WVqUEL4XhB79Gw" className="flex w-10 h-10 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-cover bg-[url('/second-flow/video_button_UA.svg')] hover:bg-[url('/second-flow/video_button_A.svg')]" />
 								</div>
 							</div>
 						</div>
