@@ -62,19 +62,19 @@ export const SecondFlow = () => {
 					</div>
 					<div className='flex flex-col sm:flex-row lg:flex-col ml-0 lg:ml-4 mt-[30px] sm:mt-8 lg:mt-0 items-center sm:space-x-[28px] lg:space-x-0 sm:pb-10 lg:pb-0'>
 						<div className='flex flex-col w-[272px] md:w-[336px] lg:w-[360px] xl:w-[436px] h-[220px] sm:h-[290px] lg:h-[274px] xl:h-[314px] rounded-[24px] bg-purple bg-opacity-60'>
-							<button className="flex w-[272px] md:w-[336px] lg:w-[360px] xl:w-[436px] h-[200px] xl:h-[314px] rounded-[24px] sm:rounded-b-none xl:rounded-[24px] sm:bg-center bg-[url('/second-flow/gameplay(1).gif')] bg-contain sm:bg-cover bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
+							<button className="flex w-[272px] md:w-[336px] lg:w-[360px] xl:w-[436px] h-[200px] xl:h-[240px] rounded-[24px] sm:rounded-b-none sm:bg-center bg-[url('/second-flow/gameplay(1).gif')] bg-contain sm:bg-cover bg-no-repeat pt-20 justify-center" onClick={() => setGP(o => !o)}>
 							</button>
 							<Popup open={openGP} closeOnDocumentClick onClose={closeGP}>
 								<div className='flex flex-col fixed inset-0 w-screen h-screen bg-black bg-opacity-80 justify-center items-center' onClick={closeGP}>
 									<iframe
 										className="flex h-fit sm:h-[360px] md:h-[420px] xl:h-[463px] w-[272px] sm:w-[576px] md:w-[704px] xl:w-[760px]"
-										src="https://www.youtube.com/embed/DGDHQNufgwY?controls=0&modestbranding=1&showinfo=0"
+										src="https://www.youtube.com/embed/BrylmhO47-k?controls=0&modestbranding=1&showinfo=0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 										allowFullScreen
 									></iframe>
 								</div>
 							</Popup>
-							<div className='flex justify-between px-4 xl:px-10 items-baseline space-x-6 xl:space-x-10 -mt-8 sm:mt-[28px] lg:mt-[20px] xl:-mt-12'>
+							<div className='flex justify-between px-4 xl:px-10 items-baseline space-x-6 xl:space-x-10 -mt-8 sm:mt-[28px] lg:mt-[20px] xl:mt-5'>
 								<a
 									href='https://tinycolony.io'
 									target='_blank'
@@ -119,7 +119,7 @@ export const SecondFlow = () => {
 								<div className='flex flex-col fixed inset-0 w-screen h-screen bg-black bg-opacity-80 justify-center items-center' onClick={closeMM}>
 									<iframe
 										className="flex h-fit sm:h-[360px] md:h-[420px] xl:h-[463px] w-[272px] sm:w-[576px] md:w-[704px] xl:w-[760px]"
-										src="https://www.youtube.com/embed/DGDHQNufgwY?controls=0&modestbranding=1&showinfo=0"
+										src="https://www.youtube.com/embed/uQa4B9rRFQs?controls=0&modestbranding=1&showinfo=0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 										allowFullScreen
 									></iframe>

@@ -45,7 +45,7 @@ export const Onepagers = () => {
 
 
     return (
-        <div className='flex flex-col space-y-6 sm:space-y-0 sm:grid sm:grid-cols-2 w-[272px] h-[640px] sm:w-[576px] sm:h-[264px] md:w-[704px] md:h-[340px] lg:w-[580px] lg:h-[264px] xl:w-[740px] xl:h-[340px] rounded-[24px] bg-purple mt-[16px] md:mt-16 lg:mt-6 p-[16px] xl:p-6 sm:gap-6 bg-opacity-60'>
+        <div className='flex flex-col space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2 w-[272px] h-[700px] sm:w-[576px] sm:h-[264px] md:w-[704px] md:h-[340px] lg:w-[580px] lg:h-[264px] xl:w-[740px] xl:h-[340px] rounded-[24px] bg-purple mt-[16px] md:mt-16 lg:mt-6 p-[16px] xl:p-6 sm:gap-6 bg-opacity-60'>
             <div className="flex w-[240px] sm:w-[252px] md:w-[316px] lg:w-[256px] lg:h-[100px] xl:w-[334px] xl:h-[134px] sm:h-[100px] md:h-[134px] rounded-[24px] border-[1px] hover:bg-[url('/second-flow/bg-card/tv_onepager.png')] hover:bg-cover">
                 <button className='flex flex-1 rounded-[24px] p-6 sm:p-5 md:p-6 lg:p-5 xl:p-6' onClick={() => TVOneP(o => !o)}>
                     <h1 className='text-left'>Tinyverse <br /> Onepager</h1>

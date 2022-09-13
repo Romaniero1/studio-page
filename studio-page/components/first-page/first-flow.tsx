@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useForm } from 'react-hook-form';
 import Link from 'next/link';
-import Logo from '/public/first-flow/logo.png'
+import Logo from '/public/first-flow/logo.gif'
 
 export const FirstFlow = () => {
 	const { register, handleSubmit } = useForm();
@@ -10,7 +10,7 @@ export const FirstFlow = () => {
 	return (
 		<header className="flex justify-center items-center w-screen h-screen overflow-hidden bg-[url('/first-flow/bg.gif')] bg-cover">
 				<div className='mx-10 flex flex-col items-center '>
-					<Image src={Logo} width={600} height={348} alt='Logo'/>
+					<Image src={Logo} width={600} height={250} alt='Logo'/>
 					<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col items-center">
 							<input
 								{...register('code')}
