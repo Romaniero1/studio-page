@@ -19,7 +19,7 @@ export const FirstFlow = () => {
 							/>
 					<Link href='/main'>
 						<button className='outline outline-0 w-[235px] h-[60px] mt-10 rounded-[16px] bg-purple text-white hover:bg-white hover:text-purple active:outline-white active:outline-4'>
-							<h2>Let’s go</h2>
+							<h2>Let’s goo</h2>
 						</button>
 					</Link>
 					</form>
